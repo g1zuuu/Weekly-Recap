@@ -177,15 +177,16 @@ Why: Ideal for reusing styles across multiple HTML pages.
 How: Link it in the <head> section using <link> tag.
 
 Example:
-in file named "style.css", written:
+```style.css
 body {
   background-color: lightgray;
-} 
-in file named "index.html", written:
+}
+```
+```index.html
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
+```
 Note: The <link href tag is used to assign the CSS setup set in the file named style.css, or any other names written in the href field. Keyword: Link, <link>, separated structure and styling files.
 
 
@@ -193,7 +194,7 @@ Note: The <link href tag is used to assign the CSS setup set in the file named s
 What: CSS is written inside a <style> tag in the <head> of the HTML file.
 Why: Useful when styling is only applied to a single page.
 Example:
-in file named "index.html", written:
+```index.html
 <head>
   <style>
     h1 {
@@ -202,6 +203,7 @@ in file named "index.html", written:
     }
   </style>
 </head>
+```
 
 Note: The <style> tag is used inside the <head> section of the HTML file to embed CSS directly in the document. This method is suitable when you want the styling to affect only that specific page.
 Keyword: Internal, <style>, page-specific styling.
